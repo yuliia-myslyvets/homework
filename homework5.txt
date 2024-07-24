@@ -1,0 +1,11 @@
+
+function pow(x, y) {
+    let result = 1;
+    for (let i = 0; i < Math.abs(y); i++) {
+        result *= x;
+    }
+    return y < 0 ? 1 / result : result;
+}
+
+let result = pow(2, 0); // виклик функції 
+console.log(result); // вивід в консоль
