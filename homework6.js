@@ -32,4 +32,4 @@ function checkProbabilityTheory(count) {
 }
 
 // Приклад виклику функції
-checkProbabilityTheory(60);
+checkProbabilityTheory(600);
