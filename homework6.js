@@ -27,7 +27,7 @@ function checkProbabilityTheory(count) {
     console.log(`Кількість згенерованих чисел: ${total}`);
     console.log(`Парних чисел: ${evenCount}`);
     console.log(`Непарних чисел: ${oddCount}`);
-    console.log(`Відсоток парних до непарних: ${evenPercentage.toFixed(0)}%/${oddPercentage.toFixed(0)}%`);
+    console.log(`Відсоток парних до непарних: ${evenPercentage.toFixed(2)}%/${oddPercentage.toFixed(2)}%`);
 
 }
 
